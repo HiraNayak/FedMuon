@@ -1,4 +1,4 @@
-# FedMuon: Reproducibility Study
+# Federated Learning with Bias-Corrected LMO-Based Optimization 
 
 A reproducibility study of **FedMuon: Federated Learning with Bias-Corrected LMO-Based
 Optimization** ([Takezawa et al., arXiv:2509.26337](https://arxiv.org/abs/2509.26337)).
