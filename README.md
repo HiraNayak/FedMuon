@@ -3,9 +3,9 @@
 A reproducibility study of **FedMuon: Federated Learning with Bias-Corrected LMO-Based
 Optimization** ([Takezawa et al., arXiv:2509.26337](https://arxiv.org/abs/2509.26337)).
 
-FedMuon adapts the [Muon optimizer](https://arxiv.org/abs/2502.16982) — a linear
+FedMuon adapts the [Muon optimizer](https://arxiv.org/abs/2502.16982); a linear
 minimization oracle (LMO) method that orthogonalizes momentum via Newton–Schulz
-iteration — to the federated setting. Naively applying Muon in FL fails because the
+iteration to the federated setting. Naively applying Muon in FL fails because the
 LMO is a nonlinear operator: averaging each client's orthogonalized update is **not**
 the same as orthogonalizing the averaged update. FedMuon corrects this bias with
 client/server control variates before applying the LMO.
