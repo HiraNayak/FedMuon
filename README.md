@@ -101,7 +101,7 @@ fedmuon-repro/
 
 ## Authors
 
-Samprithi Suresh Premalatha, Krisha Chemburkar, Hira Nayak
+Hira Nayak, Samprithi Suresh Premalatha, Krisha Chemburkar
 
 ## References
 
