@@ -65,7 +65,7 @@ python run_all.py --rounds 20
 Results are cached as JSON in `results/<method>.json` (keyed by beta) so runs can
 be resumed. `run_all.py` also writes `results/comparison.png`.
 
-## Expected results (from the report)
+## Expected results 
 
 - **Heterogeneous (beta=0.1):** FedMuon reaches ~89-90% test accuracy after 1000
   rounds, ahead of FedAvg(SGD)/SCAFFOLD(Adam) (~85-87%). **Local Muon stalls at
